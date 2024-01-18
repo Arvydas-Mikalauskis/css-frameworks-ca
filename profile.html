@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Profile</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark border-1">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logoGPT.png" alt="" width="55px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold mx-1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="feed.html" class="nav-link fw-semibold mx-1">Feed</a>
+            </li>
+            <li class="nav-item" id="messengerBtn">
+              <a href="#" class="nav-link btn btn-dark fw-semibold px-4 mx-4"
+                >Messenger</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="shadow p-3 mb-3 pb-5" id="profileHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 border-primary mt-3"
+              src="https://randomuser.me/api/portraits/men/32.jpg"
+              alt=""
+            />
+            <h3 class="text-dark text-dark">John Doe</h3>
+            <p class="mt-3 fw-lighter">
+              <strong class="text-dark">About Me:</strong> Lorem ipsum dolor,
+              sit amet consectetur adipisicing elit. Maxime, voluptatum?
+            </p>
+            <div
+              class="container d-flex justify-content-center gap-5 text-dark"
+            >
+              <p>Following: 222</p>
+              <p>Followers: 333</p>
+            </div>
+            <button class="btn btn-success mt-2 mx-2 px-5">Follow</button>
+            <button class="btn btn-warning mt-2 mx-2 px-5">Message</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="UserPosts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class="text-center mt-5 fw-bolder">Latest user's posts</h5>
+            <hr class="w-50 mx-auto text-info" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 bg-light d-flex flex-column gap-4 mx-auto">
+            <div class="card border-2">
+              <img
+                src="./images/user-posts/christopher-jolly-j2hN1GGS4w8-unsplash.jpg"
+                class="card-img-top"
+                alt="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Discovering Nature's Wonders</h5>
+                <p class="card-text">
+                  Embarked on an exhilarating journey through the heart of
+                  nature today. Every step on this hiking trail brought new
+                  sights – from the whispering pines to the panoramic views at
+                  the summit. Feeling rejuvenated and grateful for the serenity
+                  and beauty of the great outdoors. #HikingAdventures
+                  #NatureLovers #TrailMemories
+                </p>
+                <button class="btn btn-outline-primary border-2 px-4 mx-3">
+                  Like
+                </button>
+                <button class="btn btn-warning border-2 px-4 mx-1">
+                  Comment
+                </button>
+                <button class="btn btn-secondary border-2 px-4 mx-1">
+                  Send
+                </button>
+                <p class="card-text text-end">
+                  <small class="text-muted">2 weeks ago</small>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./images/user-posts/brooke-lark-jUPOXXRNdcA-unsplash.jpg"
+                class="card-img-top"
+                alt="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Fresh and Flavorful: A Journey into Healthy Eating
+                </h5>
+                <p class="card-text">
+                  Today's kitchen adventure led me to a colorful array of
+                  nature's best. Vibrant veggies, juicy fruits, and whole grains
+                  created a feast not just for the body, but for the soul too.
+                  Discovering the joy in eating clean and green. Healthy doesn't
+                  just mean tasty; it's a lifestyle. #HealthyEating #CleanEating
+                  #FoodieJourney
+                </p>
+                <button class="btn btn-outline-primary border-2 px-4 mx-3">
+                  Like
+                </button>
+                <button class="btn btn-warning border-2 px-4 mx-1">
+                  Comment
+                </button>
+                <button class="btn btn-secondary border-2 px-4 mx-1">
+                  Send
+                </button>
+                <p class="card-text text-end">
+                  <small class="text-muted">4 weeks ago</small>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./images/user-posts/jenny-hill-Io2Zgb3_kdk-unsplash.jpg"
+                class="card-img-top"
+                alt="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">My Running Bliss 🏃‍♂️💨</h5>
+                <p class="card-text">
+                  Hit the ground running this morning! There's nothing like the
+                  rush of endorphins as my feet rhythmically hit the pavement,
+                  one stride at a time. Every breath, every mile, a step closer
+                  to my personal best. Running isn't just a workout, it's my
+                  time to clear my head and chase my goals. #RunnersLife
+                  #MorningMiles #EndorphinHigh 🌅👟
+                </p>
+                <button class="btn btn-outline-primary border-2 px-4 mx-3">
+                  Like
+                </button>
+                <button class="btn btn-warning border-2 px-4 mx-1">
+                  Comment
+                </button>
+                <button class="btn btn-secondary border-2 px-4 mx-1">
+                  Send
+                </button>
+                <p class="card-text text-end">
+                  <small class="text-muted">1 month ago</small>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./images/user-posts/kal-visuals-s_o1gLvLMyo-unsplash.jpg"
+                class="card-img-top"
+                alt="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Lake Serenity: A Swimmer's Paradise 🏊‍♀️🌊
+                </h5>
+                <p class="card-text">
+                  Dove into the tranquil waters of the lake today. The calm,
+                  cool embrace of nature's pool was the perfect escape from the
+                  everyday hustle. Every stroke was a stroke of peace, gliding
+                  through the water with the sun smiling down. There's magic in
+                  lake swimming - it's rejuvenation in every splash. #LakeLife
+                  #SwimSerenity #NatureSwim 🌞💦
+                </p>
+                <button class="btn btn-outline-primary border-2 px-4 mx-3">
+                  Like
+                </button>
+                <button class="btn btn-warning border-2 px-4 mx-1">
+                  Comment
+                </button>
+                <button class="btn btn-secondary border-2 px-4 mx-1">
+                  Send
+                </button>
+                <p class="card-text text-end">
+                  <small class="text-muted"> 1 month ago</small>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./images/user-posts/rodrigo-s-2mz9IKab7DE-unsplash.jpg"
+                class="card-img-top"
+                alt="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Iron Will: Conquering the Weights 🏋️‍♂️💪
+                </h5>
+                <p class="card-text">
+                  Today's session in the gym was all about breaking barriers.
+                  Each lift, each grunt, a testament to strength not just of
+                  body, but of mind. The weights challenged me, but with
+                  determination, I rose to the occasion. It's not just about
+                  building muscles, it's about building character. #GymLife
+                  #StrengthJourney #LiftHeavy 🏋️‍♀️🔥
+                </p>
+                <button class="btn btn-outline-primary border-2 px-4 mx-3">
+                  Like
+                </button>
+                <button class="btn btn-warning border-2 px-4 mx-1">
+                  Comment
+                </button>
+                <button class="btn btn-secondary border-2 px-4 mx-1">
+                  Send
+                </button>
+                <p class="card-text text-end">
+                  <small class="text-muted">2 months ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="footer bg-dark border-top border-secondary text-light mt-5 py-1"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link link-light">Terms & Conditions</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link link-light">Privacy</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link link-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-end d-none d-md-block">Copyright &copy; 2024</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

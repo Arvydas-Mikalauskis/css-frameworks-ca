@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Feed</title>
+  </head>
+  <body>
+    <!-- Profile nav bar -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 d-none d-md-block bg-dark vh-100">
+          <nav>
+            <div class="container text-center">
+              <img
+                class="rounded-circle mt-4"
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt=""
+              />
+              <h6 class="text-light fw-light text-capitalize">John Doe</h6>
+            </div>
+            <div class="container text-light mt-5">
+              <ul class="lh-lg navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html ">My Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html ">Messages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html ">Explore Spaces</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html ">Invite Friends</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Main feed section -->
+        <div class="col-md-7">
+          <div class="container">
+            <h2 class="p-4 mb-1 text-primary">Home Feed</h2>
+          </div>
+
+          <hr class="mt-1" />
+          <div class="form-container p-3">
+            <div class="mb-3">
+              <label for="newPost" class="form-label"
+                >Share your fitness plan for today</label
+              >
+              <textarea class="form-control" id="newPost" rows="4"></textarea>
+            </div>
+            <div class="container text-end mt-1">
+              <button class="btn btn-primary">Send Message</button>
+            </div>
+          </div>
+
+          <!-- Search bar -->
+          <label for="searchBar" class="form-label mx-2">Search</label>
+          <input
+            class="form-control"
+            list="datalistOptions"
+            id="searchBar"
+            placeholder="Type to search for..."
+          />
+          <datalist id="datalistOptions">
+            <option value="Fitness"></option>
+            <option value="Diet"></option>
+            <option value="Weightloss"></option>
+            <option value="Workout"></option>
+            <option value="Cardio"></option>
+          </datalist>
+
+          <div class="card my-3">
+            <img
+              src="images/post_thumbnails/meghan-holmes-buWcS7G1_28-unsplash.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <div class="container d-flex mb-2">
+                <img
+                  src="https://randomuser.me/api/portraits/women/32.jpg"
+                  alt=""
+                  class="rounded-circle"
+                  style="width: 40px"
+                />
+                <h6 class="p-2">Emily Robertson</h6>
+              </div>
+              <h5 class="card-title">
+                Morning Boost: My 15-Minute Workout Journey!
+              </h5>
+              <p class="card-text">
+                Starting my day with a quick 15-minute workout session! 🏋️‍♂️ It's
+                amazing how much energy and positivity a short burst of exercise
+                can bring. I combined some cardio with light weights today.
+                Feeling refreshed and ready to take on the day! 💪
+                #MorningWorkout #HealthyLifestyle
+              </p>
+              <div class="container text-center">
+                <button
+                  class="btn btn-danger me-3"
+                  style="--bs-btn-padding-x: 1.7rem"
+                >
+                  Like
+                </button>
+                <button class="btn btn-secondary">Comment</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card my-3">
+            <img
+              src="images/post_thumbnails/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <div class="container d-flex mb-2">
+                <img
+                  src="https://randomuser.me/api/portraits/women/24.jpg"
+                  alt=""
+                  class="rounded-circle"
+                  style="width: 40px"
+                />
+                <h6 class="p-2">Sofia Martinez</h6>
+              </div>
+              <h5 class="card-title">Abs-olutely Amazing Workout Day!</h5>
+              <p class="card-text">
+                Description: "Just crushed my abs workout! 🤸‍♂️ 30 minutes of
+                planks, crunches, and leg raises. My core is feeling the burn,
+                but it's totally worth it. Here's to building stronger abs, one
+                day at a time! #AbsWorkout #CoreStrength"
+              </p>
+              <div class="container text-center">
+                <button
+                  class="btn btn-danger me-3"
+                  style="--bs-btn-padding-x: 1.7rem"
+                >
+                  Like
+                </button>
+                <button class="btn btn-secondary">Comment</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card my-3">
+            <img
+              src="images/post_thumbnails/jannis-brandt-mmsQUgMLqUo-unsplash.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <div class="container d-flex mb-2">
+                <img
+                  src="https://randomuser.me/api/portraits/women/34.jpg"
+                  alt=""
+                  class="rounded-circle"
+                  style="width: 40px"
+                />
+                <h6 class="p-2">Grace O'Connor</h6>
+              </div>
+              <h5 class="card-title">Oatmeal Delight for Breakfast!</h5>
+              <p class="card-text">
+                Whipped up a delicious bowl of oatmeal this morning 🥣. Topped
+                it with fresh berries, a drizzle of honey, and a sprinkle of
+                chia seeds. A perfect, nutritious start to my day! Healthy
+                eating can be so tasty. #HealthyBreakfast #OatmealLove
+              </p>
+              <div class="container text-center">
+                <button
+                  class="btn btn-danger me-3"
+                  style="--bs-btn-padding-x: 1.7rem"
+                >
+                  Like
+                </button>
+                <button class="btn btn-secondary">Comment</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card my-3 mb-5">
+            <img
+              src="images/post_thumbnails/fitsum-admasu-oGv9xIl7DkY-unsplash.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <div class="container d-flex mb-2">
+                <img
+                  src="https://randomuser.me/api/portraits/women/28.jpg"
+                  alt=""
+                  class="rounded-circle"
+                  style="width: 40px"
+                />
+                <h6 class="p-2">Lily Thompson</h6>
+              </div>
+              <h5 class="card-title">Running Towards My Goals!</h5>
+              <p class="card-text">
+                Just finished a rejuvenating 5K run 🏃‍♀️. There's something about
+                the fresh air and the rhythm of my feet hitting the pavement
+                that clears my mind. Every run brings me closer to my fitness
+                goals. #MorningRun #StayActive
+              </p>
+              <div class="container text-center">
+                <button
+                  class="btn btn-danger me-3"
+                  style="--bs-btn-padding-x: 1.7rem"
+                >
+                  Like
+                </button>
+                <button class="btn btn-secondary">Comment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card my-3">
+            <div class="card-body">
+              <h6 class="card-title">Reccomended spaces for you:</h6>
+              <ul class="d-flex flex-column lh-5">
+                <a href="#" class="card-link p-1">#cardio-workouts</a>
+                <a href="#" class="card-link p-1">#weight-loss</a>
+                <a href="#" class="card-link p-1">#breakfas-ideas</a>
+                <a href="#" class="card-link p-1">#strenght&conditioning</a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card my-3">
+            <div class="card-body">
+              <h6 class="card-title text-center mb-3">Popular creators:</h6>
+              <hr class="w-50 mx-auto text-danger" />
+              <div class="container d-flex flex-column">
+                <img
+                  class="rounded-circle mx-auto"
+                  style="width: 60px"
+                  src="https://randomuser.me/api/portraits/women/21.jpg"
+                  alt=""
+                />
+                <h6 class="p-2 text-center">Isabella Johnson</h6>
+                <button class="btn btn-secondary btn-sm">Follow</button>
+              </div>
+            </div>
+            <hr class="w-50 mx-auto text-primary" />
+
+            <div class="card-body">
+              <div class="container d-flex flex-column">
+                <img
+                  class="rounded-circle mx-auto"
+                  style="width: 60px"
+                  src="https://randomuser.me/api/portraits/men/28.jpg"
+                  alt=""
+                />
+                <h6 class="p-2 text-center">Ryan Patel</h6>
+                <button class="btn btn-secondary btn-sm">Follow</button>
+              </div>
+            </div>
+            <hr class="w-50 mx-auto text-primary" />
+
+            <div class="card-body">
+              <div class="container d-flex flex-column">
+                <img
+                  class="rounded-circle mx-auto"
+                  style="width: 60px"
+                  src="https://randomuser.me/api/portraits/women/18.jpg"
+                  alt=""
+                />
+                <h6 class="p-2 text-center">Ava Garcia</h6>
+                <button class="btn btn-secondary btn-sm">Follow</button>
+              </div>
+            </div>
+            <hr class="w-50 mx-auto text-primary" />
+
+            <div class="card-body">
+              <div class="container d-flex flex-column">
+                <img
+                  class="rounded-circle mx-auto"
+                  style="width: 60px"
+                  src="https://randomuser.me/api/portraits/men/18.jpg"
+                  alt=""
+                />
+                <h6 class="p-2 text-center">Ethan Brown</h6>
+                <button class="btn btn-secondary btn-sm">Follow</button>
+              </div>
+            </div>
+            <hr class="w-50 mx-auto text-primary" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="border-top border-primary bg-dark text-white py-2 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="profile.html" class="nav-link link-light"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link link-light">Privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-end pt-2 d-none d-md-block">
+              Copyright &copy; Fitness Media 2024
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
