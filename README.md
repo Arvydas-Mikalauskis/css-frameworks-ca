@@ -10,4 +10,4 @@ Course assignment for CSS framework module, using bootstrap.
   <li>Include required components using bootstrap</li>
 </ul>
 
-This small project is build with using mostly bootstrap components alone, there is couple custom SASS colors, and media queries, but the goal of the project for me was to practice as much bootstrap syntax as possible. The page theme - fitness social media, where fitness enthusiast can share their fitness goals, and journy of healthy lifestyle. 
+This small project is build with using mostly bootstrap components alone, there is couple custom SASS colors, and media queries, but the goal of the project for me was to practice as much bootstrap syntax as possible. The page theme - fitness social media, where fitness enthusiast can share their fitness goals, and journey of healthy lifestyle. 
