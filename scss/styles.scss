@@ -7,3 +7,16 @@
 .logInContainer {
   background-color: rgb(0, 0, 0, 0.8);
 }
+
+@media (max-width: 400px) {
+  #postCardBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #postCardBtns > button {
+    width: 100%;
+    align-self: center;
+  }
+}
